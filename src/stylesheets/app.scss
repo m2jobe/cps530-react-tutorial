@@ -19,26 +19,27 @@ $sky1-color: white;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  color: black;
+  margin: 10px;
+  padding: 0px;
   font-family: SkyTextMedium;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background-color: #0000FF;
+  background-color: white;
 }
 
 .slideShow {
   height: 100vh;
-
 }
+
 .slide {
   height: 100%;
   width: 100%;
+}
+
+.image-table {
+  max-width: 850px;
 }
 
 .title {
@@ -50,7 +51,6 @@ body {
     font-size: 150px;
   }
 }
-
 
 
 .slide {

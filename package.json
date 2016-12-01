@@ -10,8 +10,7 @@
     "lint": "eslint src"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/coder36/react-slides.git"
+    "type": "git"
   },
   "keywords": [
     "react",
@@ -25,9 +24,7 @@
     "babel",
     "react-transform"
   ],
-  "author": "Mark Middleton <markymiddleton@gmail.com> (http://github.com/coder36)",
   "license": "CC0-1.0",
-  "homepage": "https://github.com/coder36/react-slides",
   "devDependencies": {
     "babel-core": "^5.4.7",
     "babel-eslint": "^3.1.9",
