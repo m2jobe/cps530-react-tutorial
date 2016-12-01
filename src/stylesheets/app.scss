@@ -1,0 +1,58 @@
+
+$sky1-color: white;
+
+
+@font-face {
+  font-family: 'SkyTextRegular';
+  src: url('/fonts/sky_regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/sky_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/fonts/sky_regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/fonts/sky_regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'SkyTextMedium';
+  src: url('/fonts/sky_medium.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/sky_medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/fonts/sky_medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('/fonts/sky_medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: SkyTextMedium;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #0000FF;
+}
+
+.slideShow {
+  height: 100vh;
+
+}
+.slide {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  display: table;
+  h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 150px;
+  }
+}
+
+
+
+.slide {
+  background-color: $sky1-color;
+}
