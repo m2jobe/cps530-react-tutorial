@@ -29,7 +29,6 @@ $sky1-color: white;
 }
 
 body {
-  background-color: #0000FF;
 }
 
 .slideShow {
@@ -39,6 +38,7 @@ body {
 .slide {
   height: 100%;
   width: 100%;
+  padding-left: 15px;
 }
 
 .title {
@@ -51,8 +51,15 @@ body {
   }
 }
 
-
-
 .slide {
   background-color: $sky1-color;
+}
+
+.heading {
+  padding-top:10px;
+}
+
+.explanations {
+  padding-top:10px;
+  padding-left:25px;
 }
