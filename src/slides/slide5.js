@@ -20,7 +20,13 @@ export default class Slide5 extends React.Component {
   render() {
     return(
       <div className='title slide'>
-        <h1>{this.props.count} <img className={this.props.count % 2 == 0 ? "redux-logo" : "hide"} src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></h1>
+        <h1>
+          {this.props.count}
+          <img
+            className={this.props.count % 2 == 0 ? "redux-logo" : "hide"}
+            src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
+          />
+        </h1>
       </div>
     );
   }
