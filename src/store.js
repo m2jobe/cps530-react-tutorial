@@ -1,7 +1,7 @@
 import {connect} from 'react-redux'
 import {createStore} from 'redux'
 
-let slides = [ 'slide1', 'slide2', 'slide3', 'slide4', 'slide5','slide6', 'slide7'];
+const slides = [ 'slide1', 'slide2', 'slide3', 'slide4', 'slide5','slide6', 'slide7'];
 
 function reduce( state = {slide: slides[0], count: 0}, action ) {
   switch( action.type ) {
