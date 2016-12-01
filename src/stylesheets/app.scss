@@ -1,5 +1,5 @@
 
-$sky1-color: white;
+$sky1-color: #ecf0f1;
 
 
 @font-face {
@@ -25,8 +25,13 @@ $sky1-color: white;
   -webkit-font-smoothing: antialiased;
 }
 
-body {
-  background-color: white;
+body {  
+  background-color: #ecf0f1;
+}
+
+.images {
+  height:200px;
+  width: 200px;
 }
 
 .slideShow {

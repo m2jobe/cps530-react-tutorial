@@ -22,7 +22,7 @@ export default class Slide2 extends React.Component {
       	<ul className='explanations'>
       		<li> As requirements for js applications have become complicated, our codes now manage more states than ever before </li>
       		<li> Having to manage so many of these states will lead to a developer losing control over when why and how its states change </li>
-      		<li> React attempts to make state mutations predictable </li>
+      		<li> Redux attempts to make state mutations predictable </li>
       		<li> It does this by imposing restrictions on how and when updates can be made. These restrictions are reflected by their 3 principies:</li>
       		<li> 1. Single source of truth (state of whole application is stored in an object tree)</li>
       		<li> 2. State is read only(only way to change the state is to emit an action)</li>
